@@ -2,4 +2,9 @@
   <Folder Name="/src/">
     <Project Path="src/PowerFlow.Core/PowerFlow.Core.csproj" />
   </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PowerFlow.Core.Tests/PowerFlow.Core.Tests.csproj">
+      <Platform Project="x64" />
+    </Project>
+  </Folder>
 </Solution>
