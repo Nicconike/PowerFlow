@@ -1,0 +1,13 @@
+<Project>
+    <PropertyGroup>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <AnalysisLevel>latest-recommended</AnalysisLevel>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Platforms>x64</Platforms>
+        <PlatformTarget>x64</PlatformTarget>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
+        <NoWarn>$(NoWarn);CA1305;CA1310;CA1848;CA1014;CA1805;CA1806;CA2101;CA1873;CA1822;CA1001;CA1416</NoWarn>
+    </PropertyGroup>
+</Project>
